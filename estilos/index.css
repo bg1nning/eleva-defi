@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:  #e8d2df;
+}
+*{
+  font-family: 'Bebas Neue', sans-serif;
+}
+nav a{
+  padding: 3px;
+}
+.border-link {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 6px 6px; /* Ajusta el espacio alrededor del texto */
+  transition: background-color 0.3s, color 0.3s;
+ 
+}
+#header{
+    background-color: #591b4a;
+}
+
+.nav-item .nav-link:hover {
+  background-color: #591b4a; /* Amarillo para resaltar */
+}
+.nav-item .nav-link {
+  color: white; /* Texto blanco para buen contraste */
+  background-color: #f7bb00; /* Color principal */
+  padding: 10px 15px;
+  border: 2px solid transparent; /* Sin borde visible inicialmente */
+  border-radius: 5px; /* Esquinas redondeadas */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.nav-item .nav-link.active {
+  background-color: #d21010; /* Rojo para destacar */
+  color: white; /* Texto blanco */
+  border-color: #591b4a; /* Borde púrpura */
+}
+@media (min-width: 768px) {
+  .nav-item {
+      margin-right: 15px; /* Espacio horizontal en pantallas grandes */
+  }
+}
+
+
+/*Texto de carrousel*/
+.text-dinamico {
+  margin-top: 50px; /* Ajusta este valor para cambiar el espacio superior */
+  padding: 20px 0; /* Espaciado interno opcional */
+}
+
+.texto-carousel {
+  font-size: 3rem ; /* Tamaño del texto */
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombras para mejor visibilidad */
+}
+.texto-carousel {
+  font-size: 1.5rem; /* Tamaño para dispositivos pequeños */
+}
+
+@media (min-width: 576px) { /* Pantallas medianas */
+  .texto-carousel {
+      font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) { /* Pantallas grandes */
+  .texto-carousel {
+      font-size: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

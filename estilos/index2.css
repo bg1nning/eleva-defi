@@ -1,0 +1,58 @@
+.taketitulo{
+    color: #3a1231
+}
+
+label{
+    color:#3a1231
+}
+h1, h3, h4, p {
+    color: #3a1231 /* Asegura que todos los títulos y párrafos sean blancos */
+}
+.pizza-image {
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+    max-height: 200px; /* Limita la altura máxima */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto; /* Ajusta automáticamente la altura */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+}
+@media (max-width: 768px) {
+    .col-md-6 { 
+      display: flex;
+      flex-direction: column; /* Alineación vertical si hay más elementos */
+      align-items: center; /* Centra horizontalmente la imagen */
+      text-align: center; /* Centra también el texto */
+    }
+  
+    .pizza-image {
+      max-width: 80%; /* Ajusta el ancho en móviles */
+      height: auto; /* Mantiene la proporción */
+    }
+  }
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-group-item .badge {
+    background-color: #007bff; /* Fondo azul para el precio */
+    color: white;
+    padding: 8px 12px;
+    font-size: 1.1rem;
+  }
+  
+  .list-group-item .eliminar-btn {
+    margin-left: 10px; /* Ajustar el espacio entre el precio y el botón */
+  }
+  
+  .list-group-item .d-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-group-item .d-flex .badge {
+    margin-right: 10px; /* Ajusta el margen entre el precio y el botón */
+  }
+p{
+    font-size: 1.5rem;
+}
